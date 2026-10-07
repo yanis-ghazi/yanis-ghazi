@@ -1,11 +1,8 @@
-<h1 align="center">👋 Hi, I'm Yanis Ghazi</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=170&section=header&text=Yanis%20Ghazi&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Computer%20vision%20%26%20ML%20for%20football&descAlignY=60&descSize=16" alt="Yanis Ghazi"/>
+</p>
 
 <p align="center"><b>Engineering Student · Data Science &amp; AI · IMT Nord Europe</b></p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/yanis-ghazi213"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:yanisghazi27@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
 
 ---
 

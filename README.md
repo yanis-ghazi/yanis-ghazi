@@ -17,15 +17,27 @@ Currently looking for a **6-month end-of-studies internship in machine learning 
 
 ## 🛠️ Tech Stack
 
-**Languages** `Python` `SQL` `Java`
+## 🛠️ Tech Stack
 
-**Computer Vision** `PyTorch` `OpenCV` `Ultralytics YOLO` `ByteTrack` `scikit-image`
+#### Languages
 
-**Data & ML** `Scikit-learn` `XGBoost` `CatBoost` `Pandas` `NumPy` `SciPy` `statsmodels` `Sentence-Transformers` `ChromaDB`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-5C7C99?style=flat-square) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-**Cloud & Infra** `Azure` `Docker` `Dagster` `GitHub Actions` `PostgreSQL` `SQLite`
+#### Computer Vision
 
-**Visualization & Apps** `Streamlit` `Gradio` `Power BI` `Matplotlib`
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Ultralytics YOLO](https://img.shields.io/badge/Ultralytics%20YOLO-111F68?style=flat-square) ![ByteTrack](https://img.shields.io/badge/ByteTrack-555555?style=flat-square) ![scikit-image](https://img.shields.io/badge/scikit--image-4C8CBF?style=flat-square)
+
+#### Data & ML
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square&logoColor=black&labelColor=FFCC00) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![statsmodels](https://img.shields.io/badge/statsmodels-4A6FA5?style=flat-square) ![Sentence-Transformers](https://img.shields.io/badge/Sentence--Transformers-6B4FBB?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-E8590C?style=flat-square)
+
+#### Cloud & Infra
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat-square&logo=dagster&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+#### Visualization & Apps
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white)
 
 **Human Languages** 🇫🇷 French (Native) · 🇬🇧 English (C1, TOEIC 945/990) · 🇩🇿 Arabic (academic) · 🇪🇸 Spanish (academic) · 🇨🇳 Chinese (HSK3)
 

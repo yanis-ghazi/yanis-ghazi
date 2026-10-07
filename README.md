@@ -37,7 +37,7 @@ Currently looking for a **6-month end-of-studies internship in machine learning 
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white)
 
-**Human Languages** 🇫🇷 French (Native) · 🇬🇧 English (C1, TOEIC 945/990) · 🇩🇿 Arabic (academic) · 🇪🇸 Spanish (academic) · 🇨🇳 Chinese (HSK3)
+**Human Languages** 🇫🇷 French (Native) · 🇬🇧 English (C1, TOEIC 945/990) · 🇸🇦 Arabic (academic) · 🇪🇸 Spanish (academic) · 🇨🇳 Chinese (HSK3)
 
 ---
 

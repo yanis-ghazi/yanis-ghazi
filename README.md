@@ -1,5 +1,7 @@
+<h1 align="center">Yanis Ghazi</h1>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=170&section=header&text=Yanis%20Ghazi&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Computer%20vision%20%26%20ML%20for%20football&descAlignY=60&descSize=16" alt="Yanis Ghazi"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&center=true&vCenter=true&width=620&lines=Computer+vision+%26+machine+learning;Football+tracking+from+broadcast+video;Looking+for+a+6-month+ML%2FCV+internship+from+Feb+2027" alt="Typing animation"/>
 </p>
 
 <p align="center"><b>Engineering Student · Data Science &amp; AI · IMT Nord Europe</b></p>

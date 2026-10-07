@@ -57,17 +57,18 @@ Player detection, tracking, pitch calibration and re-identification from broadca
 
 Sports scouting tool with RAG, over NBA and Premier League statistics. Natural-language scouting over 1,047 players ("NBA point guard with 8+ assists and fewer than 3 turnovers"): an LLM turns the question into numeric filters, exact filtering handles the figures that embeddings can't compare reliably, and the answer is generated from the retrieved profiles. Built without LangChain, with a live demo on Hugging Face Spaces.
 
+### 🧑 [biometrie-faciale](https://github.com/yanis-ghazi/biometrie-faciale)
+
+> Python · Scikit-learn · PyTorch · facenet-pytorch
+
+Face recognition: LBPH, Eigenfaces and FaceNet. Comparison of the three approaches on AT&T and LFW (90.0%, 96.25% and 98.61% accuracy), with error analysis, ROC curves and t-SNE of the embeddings, written up as an IEEE-format report.
+
 ### 🏆 [worldcup-2026-prediction](https://github.com/yanis-ghazi/worldcup-2026-prediction)
 
 > Python · NumPy · SciPy · Pandas
 
 Monte Carlo prediction of the 2026 World Cup: Elo, Poisson and Dixon-Coles models. Dixon-Coles estimated by maximum likelihood (about 460 parameters), converted into match probabilities and fed into a simulation of the 48-team tournament (10,000 runs), including FIFA's 495-scenario table for the best third-placed teams. Backtested on the 2018 and 2022 World Cups with strict temporal separation (Brier score).
 
-### 🧑 [biometrie-faciale](https://github.com/yanis-ghazi/biometrie-faciale)
-
-> Python · Scikit-learn · PyTorch · facenet-pytorch
-
-Face recognition: LBPH, Eigenfaces and FaceNet. Comparison of the three approaches on AT&T and LFW (90.0%, 96.25% and 98.61% accuracy), with error analysis, ROC curves and t-SNE of the embeddings, written up as an IEEE-format report.
 
 ### 🎮 [Game-Mechanics-Classification-Steam](https://github.com/yanis-ghazi/Game-Mechanics-Classification-Steam)
 

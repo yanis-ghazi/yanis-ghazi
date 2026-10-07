@@ -31,56 +31,55 @@ Currently looking for a **6-month end-of-studies internship in machine learning 
 
 #### Cloud & Infra
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Dagster](https://img.shields.io/badge/Dagster-4F43DD?style=flat-square&logo=dagster&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
 #### Visualization & Apps
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white)
 
-**Human Languages** 🇫🇷 French (Native) · 🇬🇧 English (C1, TOEIC 945/990) · 🇸🇦 Arabic (academic) · 🇪🇸 Spanish (academic) · 🇨🇳 Chinese (HSK3)
+#### Human Languages
+
+🇫🇷 French (Native) · 🇬🇧 English (C1, TOEIC 945/990) · 🇸🇦 Arabic (academic) · 🇪🇸 Spanish (academic) · 🇨🇳 Chinese (HSK3)
 
 ---
 
 ## 🔭 Featured Projects
 
-### ⚽ [Football Tracking & Tactical Analysis from Broadcast Video](https://github.com/yanis-ghazi/football-tracking-cv)
+### ⚽ [football-tracking-cv](https://github.com/yanis-ghazi/football-tracking-cv)
 
 > Python · PyTorch · Ultralytics YOLO · OpenCV · ByteTrack
 
-End-to-end pipeline on broadcast footage: player tracking (YOLOv8x + ByteTrack), team separation, a fine-tuned ball detector, and automatic per-frame pitch calibration from a 32-keypoint pose model with RANSAC (1.3 m mean reprojection error against 22 m for a fixed homography on a high-camera-motion clip). Includes a player re-identification model written in PyTorch, with a batch-hard triplet loss and labels taken from tracker IDs (rank-1 0.72 on 21 held-out tracks).
+Player detection, tracking, pitch calibration and re-identification from broadcast football video. End-to-end pipeline on broadcast footage: player tracking (YOLOv8x + ByteTrack), team separation, a fine-tuned ball detector, and automatic per-frame pitch calibration from a 32-keypoint pose model with RANSAC (1.3 m mean reprojection error against 22 m for a fixed homography on a high-camera-motion clip). Includes a player re-identification model written in PyTorch, with a batch-hard triplet loss and labels taken from tracker IDs (rank-1 0.72 on 21 held-out tracks).
 
-### 🔎 [RAG Scouting Tool: NBA & Premier League](https://github.com/yanis-ghazi/rag-scouting)
+### 🔎 [rag-scouting](https://github.com/yanis-ghazi/rag-scouting)
 
 > Python · ChromaDB · Sentence-Transformers · Llama 3.3 70B · Gradio
 
-Natural-language scouting over 1,047 players ("NBA point guard with 8+ assists and fewer than 3 turnovers"). An LLM turns the question into numeric filters, exact filtering handles the figures that embeddings can't compare reliably, and the answer is generated from the retrieved profiles. Built without LangChain, with a live demo on Hugging Face Spaces.
+Sports scouting tool with RAG, over NBA and Premier League statistics. Natural-language scouting over 1,047 players ("NBA point guard with 8+ assists and fewer than 3 turnovers"): an LLM turns the question into numeric filters, exact filtering handles the figures that embeddings can't compare reliably, and the answer is generated from the retrieved profiles. Built without LangChain, with a live demo on Hugging Face Spaces.
 
-### 🧑 Face Recognition: Handcrafted Features vs Deep Learning
-
-> Python · Scikit-learn · PyTorch · facenet-pytorch
-
-Comparison of LBPH, Eigenfaces + SVM and FaceNet + SVM on AT&T and LFW (90.0%, 96.25% and 98.61% accuracy), with error analysis, ROC curves and t-SNE of the embeddings. Written up as an IEEE-format report.
-
-### 🎮 Steam Game Mechanics Ontology
-
-> Python · Scikit-learn · XGBoost · Sentence-Transformers · SQLite
-
-Research project turning the noisy tags of more than 126,000 Steam games into a structured taxonomy: association rules (FP-Growth), community detection (Louvain), semantic analysis with embeddings, and multi-label stacking classification, across 8 documented phases with a Streamlit dashboard.
-
-
-### 🏆 World Cup 2026 Prediction by Tournament Simulation
+### 🏆 [worldcup-2026-prediction](https://github.com/yanis-ghazi/worldcup-2026-prediction)
 
 > Python · NumPy · SciPy · Pandas
 
-Elo ratings and a Dixon-Coles model estimated by maximum likelihood (about 460 parameters), converted into match probabilities and fed into a Monte-Carlo simulation (10,000 runs) of the 48-team tournament, including FIFA's 495-scenario table for the best third-placed teams. Backtested on the 2018 and 2022 World Cups with strict temporal separation (Brier score).
+Monte Carlo prediction of the 2026 World Cup: Elo, Poisson and Dixon-Coles models. Dixon-Coles estimated by maximum likelihood (about 460 parameters), converted into match probabilities and fed into a simulation of the 48-team tournament (10,000 runs), including FIFA's 495-scenario table for the best third-placed teams. Backtested on the 2018 and 2022 World Cups with strict temporal separation (Brier score).
 
-### 🏃 Text-to-Motion Retrieval
+### 🧑 [biometrie-faciale](https://github.com/yanis-ghazi/biometrie-faciale)
 
-> PyTorch · Sentence-Transformers · Contrastive Learning (InfoNCE)
+> Python · Scikit-learn · PyTorch · facenet-pytorch
 
-One-week hackathon: a BiGRU motion encoder aligned with a pre-trained sentence encoder through a symmetric InfoNCE loss, with discriminative learning rates, time-series augmentation, test-time augmentation and rank fusion across models, evaluated on Recall@10.
+Face recognition: LBPH, Eigenfaces and FaceNet. Comparison of the three approaches on AT&T and LFW (90.0%, 96.25% and 98.61% accuracy), with error analysis, ROC curves and t-SNE of the embeddings, written up as an IEEE-format report.
 
+### 🎮 [Game-Mechanics-Classification-Steam](https://github.com/yanis-ghazi/Game-Mechanics-Classification-Steam)
 
+> Python · Scikit-learn · XGBoost · Sentence-Transformers · SQLite
+
+Computational ludology: transforming the noisy tags of more than 126,000 Steam games into a structured gameplay taxonomy. Association rules (FP-Growth), community detection (Louvain), semantic analysis with embeddings and multi-label stacking classification, across 8 documented phases with a Streamlit dashboard.
+
+### 🎵 [spotify-genre-classification](https://github.com/yanis-ghazi/spotify-genre-classification)
+
+> Python · Scikit-learn · XGBoost
+
+Music genre prediction from Spotify audio features, across 23 genres, with Voting and Stacking ensembles, XGBoost and Random Forest, and strategies for class imbalance.
 
 ---
 

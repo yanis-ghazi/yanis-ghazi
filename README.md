@@ -16,8 +16,6 @@ Currently looking for a **6-month end-of-studies internship in machine learning 
 
 ## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack
-
 #### Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-5C7C99?style=flat-square) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)

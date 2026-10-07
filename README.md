@@ -1,26 +1,35 @@
-👋 Hi, I'm Yanis Ghazi
+<h1 align="center">👋 Hi, I'm Yanis Ghazi</h1>
 
-Engineering Student · Data Science & AI · IMT Nord Europe
+<p align="center"><b>Engineering Student · Data Science &amp; AI · IMT Nord Europe</b></p>
 
-[LinkedIn](https://www.linkedin.com/in/yanis-ghazi213) · [Email](mailto:yanisghazi27@gmail.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/yanis-ghazi213"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:yanisghazi27@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
-I'm an engineering student in Data Science & AI at IMT Nord Europe, on an exchange semester at Hohai University (Nanjing) until January 2027. I love sport, football and basketball especially, and I like using computer vision and machine learning to understand it. Previously a data scientist intern at Ponticelli Frères, where I built an absence forecasting pipeline deployed on Azure.
+---
+
+I'm an engineering student in **Data Science & Artificial Intelligence** at **IMT Nord Europe**, currently on an exchange semester at **Hohai University** (Nanjing) until January 2027. I love sport, football and basketball especially, and I like using computer vision and machine learning to understand it. Previously a data scientist intern at Ponticelli Frères, where I built an absence forecasting pipeline deployed on Azure.
 
 Currently looking for a **6-month end-of-studies internship in machine learning / computer vision starting February–March 2027**, ideally in sports analytics or player tracking.
 
+---
+
 ## 🛠️ Tech Stack
 
-**Languages:** Python · SQL · Java
+**Languages** `Python` `SQL` `Java`
 
-**Computer Vision:** PyTorch · OpenCV · Ultralytics YOLO · ByteTrack (supervision) · scikit-image
+**Computer Vision** `PyTorch` `OpenCV` `Ultralytics YOLO` `ByteTrack` `scikit-image`
 
-**Data & ML:** scikit-learn · XGBoost · CatBoost · pandas · NumPy · SciPy · statsmodels · Sentence-Transformers · ChromaDB
+**Data & ML** `Scikit-learn` `XGBoost` `CatBoost` `Pandas` `NumPy` `SciPy` `statsmodels` `Sentence-Transformers` `ChromaDB`
 
-**Cloud & Infra:** Azure (Functions, Data Factory, Blob Storage) · Docker · Dagster · GitHub Actions · PostgreSQL · SQLite
+**Cloud & Infra** `Azure` `Docker` `Dagster` `GitHub Actions` `PostgreSQL` `SQLite`
 
-**Visualization & Apps:** Streamlit · Gradio · Power BI · Matplotlib
+**Visualization & Apps** `Streamlit` `Gradio` `Power BI` `Matplotlib`
 
-**Human Languages:** 🇫🇷 French (native) · 🇬🇧 English (C1, TOEIC 945/990) · 🇩🇿 Arabic (academic) · 🇪🇸 Spanish (academic) · 🇨🇳 Chinese (HSK3)
+**Human Languages** 🇫🇷 French (Native) · 🇬🇧 English (C1, TOEIC 945/990) · 🇩🇿 Arabic (academic) · 🇪🇸 Spanish (academic) · 🇨🇳 Chinese (HSK3)
+
+---
 
 ## 🔭 Featured Projects
 
@@ -36,15 +45,22 @@ End-to-end pipeline on broadcast footage: player tracking (YOLOv8x + ByteTrack),
 
 Natural-language scouting over 1,047 players ("NBA point guard with 8+ assists and fewer than 3 turnovers"). An LLM turns the question into numeric filters, exact filtering handles the figures that embeddings can't compare reliably, and the answer is generated from the retrieved profiles. Built without LangChain, with a live demo on Hugging Face Spaces.
 
-### 🧑‍🦱 Face Recognition: Handcrafted Features vs Deep Learning
+### 🧑 Face Recognition: Handcrafted Features vs Deep Learning
 
-> Python · scikit-learn · PyTorch · facenet-pytorch
+> Python · Scikit-learn · PyTorch · facenet-pytorch
 
-Comparison of LBPH, Eigenfaces + SVM and FaceNet + SVM on AT&T and LFW (90.0%, 96.25% and 98.61% accuracy), with error analysis, ROC curves and t-SNE of the embeddings. Research project at IMT Nord Europe, written up as an IEEE-format report.
+Comparison of LBPH, Eigenfaces + SVM and FaceNet + SVM on AT&T and LFW (90.0%, 96.25% and 98.61% accuracy), with error analysis, ROC curves and t-SNE of the embeddings. Written up as an IEEE-format report.
+
+### 🎮 Steam Game Mechanics Ontology
+
+> Python · Scikit-learn · XGBoost · Sentence-Transformers · SQLite
+
+Research project turning the noisy tags of more than 126,000 Steam games into a structured taxonomy: association rules (FP-Growth), community detection (Louvain), semantic analysis with embeddings, and multi-label stacking classification, across 8 documented phases with a Streamlit dashboard.
+
 
 ### 🏆 World Cup 2026 Prediction by Tournament Simulation
 
-> Python · NumPy · SciPy · pandas
+> Python · NumPy · SciPy · Pandas
 
 Elo ratings and a Dixon-Coles model estimated by maximum likelihood (about 460 parameters), converted into match probabilities and fed into a Monte-Carlo simulation (10,000 runs) of the 48-team tournament, including FIFA's 495-scenario table for the best third-placed teams. Backtested on the 2018 and 2022 World Cups with strict temporal separation (Brier score).
 
@@ -54,12 +70,9 @@ Elo ratings and a Dixon-Coles model estimated by maximum likelihood (about 460 p
 
 One-week hackathon: a BiGRU motion encoder aligned with a pre-trained sentence encoder through a symmetric InfoNCE loss, with discriminative learning rates, time-series augmentation, test-time augmentation and rank fusion across models, evaluated on Recall@10.
 
-### 🎮 Steam Game Mechanics Ontology
 
-> Python · scikit-learn · XGBoost · Sentence-Transformers · SQLite
 
-Research project turning the noisy tags of more than 126,000 Steam games into a structured taxonomy: association rules (FP-Growth), community detection (Louvain), semantic analysis with embeddings, and multi-label stacking classification, across 8 documented phases with a Streamlit dashboard.
-
+---
 
 ## 🌟 Interests
 

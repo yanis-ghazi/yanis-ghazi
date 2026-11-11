@@ -57,6 +57,12 @@ Player detection, tracking, pitch calibration and re-identification from broadca
 
 Sports scouting tool with RAG, over NBA and Premier League statistics. Natural-language scouting over 1,047 players ("NBA point guard with 8+ assists and fewer than 3 turnovers"): an LLM turns the question into numeric filters, exact filtering handles the figures that embeddings can't compare reliably, and the answer is generated from the retrieved profiles. Built without LangChain, with a live demo on Hugging Face Spaces.
 
+### 🩻 [pedwri-fracture](https://github.com/yanis-ghazi/pedwri-fracture)
+
+> Python · PyTorch · Ultralytics YOLO · ONNX · FastAPI · Docker
+
+Pediatric wrist fracture detection on radiographs (GRAZPEDWRI-DX, 20,327 images from 6,091 children), evaluated the way a clinician uses it: one decision per exam, a split by patient and thresholds fixed on validation. Exam-level AUC of 0.990 and 97.9% sensitivity at 90% specificity, with bootstrap confidence intervals over patients, an analysis of missed fractures by age and AO type, and a leakage study across patient, exam and image splits. Served by a FastAPI + ONNX Runtime API packaged with Docker.
+
 ### 🧑 [biometrie-faciale](https://github.com/yanis-ghazi/biometrie-faciale)
 
 > Python · Scikit-learn · PyTorch · facenet-pytorch

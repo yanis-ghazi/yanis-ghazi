@@ -45,6 +45,12 @@ Currently looking for a **6-month end-of-studies internship in machine learning 
 
 ## 🔭 Featured Projects
 
+### 🎯 [fred-box-propagation](https://github.com/yanis-ghazi/fred-box-propagation)
+
+> Python · PyTorch · SAM 2.1 · DVC · pytest
+
+Box propagation for drone annotation on FRED, a dataset recorded with a Prophesee event camera next to a synchronised RGB camera. SAM 2.1 propagates a single reference box over 10 sequences (3,000 frames) from RGB and three event representations, using a NumPy/Numba port of Prophesee's decoder for the raw event files (mean IoU 0.435 on event frames against 0.163 on RGB). Drift signals computed during propagation flag the failed frames (AUROC 0.865 for the mask confidence), and a simulated annotator with a limited correction budget shows that evenly spaced keyframes beat uncertainty-guided review (mean IoU 0.533 against 0.476 at 8 corrections). Versioned as a DVC pipeline, with the limits stated in the README.
+
 ### ⚽ [football-tracking-cv](https://github.com/yanis-ghazi/football-tracking-cv)
 
 > Python · PyTorch · Ultralytics YOLO · OpenCV · ByteTrack
